@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.full{
+    width:100%;
+    background: linear-gradient(#333ed3,#d4d4d4);
+height:140vh
+    
+}
+.button{
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+    background-color: chocolate;
+    border: 1px solid chocolate ;
+    position: sticky;
+    cursor: pointer;
+    top: 0;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+text-align: center;
+justify-content: center;
+}
+.notes{
+    background-color:#333;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+}
+span{
+    
+    cursor: pointer;
+    color: #fff;
+}
+.editable {
+ 
+  padding: 10px;
+  height: 130px;
+  margin-bottom: 10px;
+  outline: none; /* إزالة التحديد الافتراضي عند التحرير */
+}
+
+.editable:focus {
+    border: 1px solid #fff;
+  border-color: #007bff; /* لون الإطار عند التركيز */
+}
+.notes{
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #333;
+    color: #fff;
+}
+
+.notes i.fa{
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  cursor: pointer;
+ 
+}
+.notes hr{
+    border-top: 2px solid black;
+    margin-top: 33px;
+} 
+i{
+    cursor: pointer;
+}
